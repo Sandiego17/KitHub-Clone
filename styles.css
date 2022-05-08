@@ -49,28 +49,32 @@ li .nav-link:hover {
 
 .dropdown-menu a {
     font-size: 15px;
+}
 /* NAVBAR */
 
 /* FIRST-SECTION */
-.first{
+.first {
     color: rgb(33, 82, 234);
 }
-.new{
+
+.new {
     background-color: rgb(33, 82, 234) !important;
     padding:10px 20px !important;
 }
-.new:hover{
-    background-color: rgb(15, 61, 201) !important;
 
+.new:hover {
+    background-color: rgb(15, 61, 201) !important;
 }
-.new2{
-   
+
+.new2 {
     background-color:#D2DCFB;
     /* border-radius: 50%; */
 }
-.arrow{
+
+.arrow {
     top:35px !important;
 }
+
 .card {
     position: relative;
     display: flex;
@@ -82,8 +86,8 @@ li .nav-link:hover {
     border: 0 solid rgba(0, 0, 0, 0.125);
     border-radius: 0.188rem;
 }
-.card-1{
-    
+
+.card-1 {
         width: 205px;
         position: absolute;
         top: 100% !important;
@@ -91,8 +95,9 @@ li .nav-link:hover {
         margin-left: -25%;
 }
 
-@media (min-width: 768px) and (max-width: 991.98px){
-.card-1 {
-    top: 40%;
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card-1 {
+        top: 40%;
+    }
 }
 /* FIRST-SECTION */
