@@ -2,3 +2,47 @@
     font-family: 'Barlow', sans-serif;
     font-family: 'Inter', sans-serif;
 }
+.first{
+    color: rgb(33, 82, 234);
+}
+.new{
+    background-color: rgb(33, 82, 234) !important;
+    padding:10px 20px !important;
+}
+.new:hover{
+    background-color: rgb(15, 61, 201) !important;
+
+}
+.new2{
+   
+    background-color:#D2DCFB;
+    /* border-radius: 50%; */
+}
+.arrow{
+    top:35px !important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.188rem;
+}
+.card-1{
+    
+        width: 205px;
+        position: absolute;
+        top: 100% !important;
+        left: 4%;
+        margin-left: -25%;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+.card-1 {
+    top: 40%;
+}
+}
