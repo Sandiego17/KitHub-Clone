@@ -132,6 +132,12 @@ p {
 .add{
     font-size: 14px;
 }
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
 @media (min-width:300px) and (max-width:600px){
     .card {
         position: relative;
