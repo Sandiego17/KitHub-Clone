@@ -77,7 +77,61 @@
     border-radius: 5px;
 }
 
-
+p {
+  white-space:normal;
+  max-width: 220px;
+}
+.comment{
+    padding: 5px 10px;
+    color: rgb(33, 82, 234);
+    font-size: 12px !important;
+    font-weight:500;
+    background-color: #c3cfe9;
+    border: none;
+    border-radius:3px;
+}
+.comment-1{
+    padding: 5px 10px;
+    color: #76CEA7;
+    font-size: 12px !important;
+    font-weight:500;
+    background-color: rgb(216, 241, 230);
+    border: none;
+    border-radius:3px;
+}
+.comment-2{
+    padding: 5px 10px;
+    color: #F69090;
+    font-size: 12px !important;
+    font-weight:500;
+    background-color: #FCDDDD;
+    border: none;
+    border-radius:3px;
+}
+.comment-3{
+    padding: 5px 10px;
+    color: #E7BB4A;
+    font-size: 12px !important;
+    font-weight:500;
+    background-color: #F8EBCB;
+    border: none;
+    border-radius:3px;
+}
+.det{
+    word-spacing: 1px;
+    line-height: 30px;
+}
+.member{
+    
+    height: 60px;
+    width: 60px;
+}
+.adds{
+    font-size: 17px; 
+}
+.add{
+    font-size: 14px;
+}
 @media (min-width:300px) and (max-width:600px){
     .card {
         position: relative;
@@ -119,6 +173,10 @@
         box-shadow: 0 4px 4px 0 rgba(0,0,0,0.01);
         border-radius: 5px;
     }
+    p {
+        white-space:normal;
+        max-width: 500px;
+      }
 }
 @media (min-width: 768px) and (max-width: 991.98px){
     .card {
@@ -126,7 +184,6 @@
         display: flex;
         flex-direction: column;
         row-gap: 15px;
-        /* word-wrap: break-word; */
         background-color: #fff;
        
         
