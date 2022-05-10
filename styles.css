@@ -8,6 +8,7 @@ body {
     font-family: 'Barlow', sans-serif;
     font-family: 'Inter', sans-serif;
 }
+<<<<<<< Updated upstream
 
 /* NAVBAR */
 div .dropdown-item:hover {
@@ -33,6 +34,12 @@ li .nav-link:hover {
 
 .container-fluid > img {
     width: 95px;
+=======
+.first-section{
+    background-color: #F4F7FD;
+    padding-left:150px ;
+    padding-right:150px ;
+>>>>>>> Stashed changes
 }
 
 .dropdown-header {
@@ -86,7 +93,14 @@ li .nav-link:hover {
     word-wrap: break-word;
     background-color: #fff;
 }
+<<<<<<< Updated upstream
 
+=======
+.section-3{
+    padding-left:150px ;
+    padding-right:150px ;
+}
+>>>>>>> Stashed changes
 .card-1{ 
        width:210px;
        height:100px;
@@ -132,6 +146,17 @@ li .nav-link:hover {
 .bi-check-circle {
     margin-left: 8px;
 }
+<<<<<<< Updated upstream
+=======
+.section-6{
+    padding-left:150px ;
+    padding-right:150px ;
+}
+.footer{
+    padding-left:150px ;
+    padding-right:150px ;
+}
+>>>>>>> Stashed changes
 
 .bi-emoji-smile {
     margin-left: 40px !important;
@@ -195,8 +220,17 @@ p {
     word-spacing: 1px;
     line-height: 30px;
 }
+<<<<<<< Updated upstream
 
 .member{    
+=======
+.det-1{
+    word-spacing: 1px;
+    line-height: 25px;
+}
+.member{
+    
+>>>>>>> Stashed changes
     height: 60px;
     width: 60px;
 }
@@ -216,8 +250,33 @@ p {
 .link:hover{
     text-decoration: underline;
 }
+<<<<<<< Updated upstream
 /* FOOTER-SECTION */
 
+=======
+.sec-6{
+    background-color:  #F4F7FD;
+}
+.rect-1{
+    left:160px;
+   bottom:60px;
+}
+.input{
+    height: 60px !important;
+    width:450px !important;
+    border: 1px solid #D9DEE2;
+}
+
+.arrow-1{
+    position: absolute;
+    height: 50px;
+    width:60px;
+    background-color: rgb(33, 82, 234) !important;
+    /* right: 10px; */
+    margin-right: -380px !important;
+    margin-top: 4.5px;
+}
+>>>>>>> Stashed changes
 @media (min-width:300px) and (max-width:600px){
     .card {
         position: relative;
@@ -245,7 +304,7 @@ p {
         height:100px;
          position: absolute !important;
          top:-150px;
-         left: 400px !important;
+         left: 350px !important;
          margin-left: -25%;
          background-color: #ffff;
          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
@@ -266,6 +325,10 @@ p {
       }
 }
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 @media (min-width: 768px) and (max-width: 991.98px){
     .card {
         position: relative;
