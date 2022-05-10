@@ -37,7 +37,6 @@ nav {
 
 .container-fluid > img {
     width: 95px;
-}
 
 .dropdown-header {
     color: black !important;
@@ -59,6 +58,8 @@ nav {
 
 .first-section{
     background-color: #F4F7FD;
+    padding-left:150px ;
+    padding-right:150px ;
 }
 
 .new {
@@ -85,6 +86,11 @@ nav {
     row-gap: 15px;
     word-wrap: break-word;
     background-color: #fff;
+}
+
+.section-3{
+    padding-left:150px ;
+    padding-right:150px ;
 }
 
 .card-1{ 
@@ -131,6 +137,15 @@ nav {
 
 .bi-check-circle {
     margin-left: 8px;
+}
+
+.section-6{
+    padding-left:150px ;
+    padding-right:150px ;
+}
+.footer{
+    padding-left:150px ;
+    padding-right:150px ;
 }
 
 .bi-emoji-smile {
@@ -196,7 +211,11 @@ p {
     line-height: 30px;
 }
 
-.member{    
+.det-1{
+    word-spacing: 1px;
+    line-height: 25px;
+}
+.member{
     height: 60px;
     width: 60px;
 }
@@ -220,7 +239,31 @@ p {
 .footer-brand{
     width: 10px !important;
 }
+
 /* FOOTER-SECTION */
+
+.sec-6{
+    background-color:  #F4F7FD;
+}
+.rect-1{
+    left:160px;
+   bottom:60px;
+}
+.input{
+    height: 60px !important;
+    width:450px !important;
+    border: 1px solid #D9DEE2;
+}
+
+.arrow-1{
+    position: absolute;
+    height: 50px;
+    width:60px;
+    background-color: rgb(33, 82, 234) !important;
+    /* right: 10px; */
+    margin-right: -380px !important;
+    margin-top: 4.5px;
+}
 
 @media (min-width:300px) and (max-width:600px){
     .card {
@@ -249,7 +292,7 @@ p {
         height:100px;
          position: absolute !important;
          top:-150px;
-         left: 400px !important;
+         left: 350px !important;
          margin-left: -25%;
          background-color: #ffff;
          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
